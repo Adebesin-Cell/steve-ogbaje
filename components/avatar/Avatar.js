@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Avatar.module.scss';
-import AvatarImage from '../../assets/images/avatar.png';
+import AvatarImage from '../../assets/images/avatar.jpg';
 
 const Avatar = function (props) {
   return (
@@ -8,7 +8,7 @@ const Avatar = function (props) {
       <Image
         src={AvatarImage}
         className={styles.avatar__image}
-        alt='Adekanmbi Ayomiposi Image'
+        alt="Steve Ogbaje's Image"
       ></Image>
       <div className={styles.avatar__overlay}>&nbsp;</div>
     </div>
