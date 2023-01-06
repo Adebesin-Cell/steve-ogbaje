@@ -10,6 +10,7 @@ const WorkCard = function (props) {
         src={props.image}
         alt={props.title}
         className={styles.card__image}
+        layout='fill'
       />
       <div className={styles.card__overlay}>
         <div className={styles.card__info}>

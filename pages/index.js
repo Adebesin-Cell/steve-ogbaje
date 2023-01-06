@@ -2,6 +2,7 @@ import Header from '../components/layout/header/Header';
 import Container from '../components/ui/container/Container';
 import styles from '../styles/Home.module.scss';
 import Intro from '../components/sections/intro/Intro';
+import CaseStudies from '../components/sections/caseStudies/CaseStudies';
 import { useRef } from 'react';
 import Footer from '../components/layout/footer/Footer';
 
@@ -19,6 +20,8 @@ export default function Home() {
           <Header />
         </Container>
         <Intro onClick={handleClick} />
+        <CaseStudies ref={caseStudiesRef} />
+
         <Footer />
       </main>
     </>

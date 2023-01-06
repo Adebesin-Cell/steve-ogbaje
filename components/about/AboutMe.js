@@ -69,6 +69,15 @@ const AboutMe = function () {
               <li className={styles.about__item}>
                 Technical Product manager at IQ.Wiki
               </li>
+              <li className={styles.about__item}>
+                Digital Product Manager at Garden ventures
+              </li>
+              <li className={styles.about__item}>
+                Technical Product Manager at Cryptosmart
+              </li>
+              <li className={styles.about__item}>
+                Technical Product Manager at Xcelsolution
+              </li>
             </ul>
             <ul className={styles.about__list}>
               <h1 className={styles.about__title}>Socials</h1>
@@ -99,7 +108,7 @@ const AboutMe = function () {
                 rel='noopener noreferrer'
                 // eslint-disable-next-line react/no-unknown-property
                 download
-                href='/Adekanmbi-Ayomiposi-resume.pdf'
+                href='/Stephen_ogbaje_Resume.pdf'
                 className={styles.about__button}
               >
                 Download Resume
@@ -121,17 +130,17 @@ const AboutMe = function () {
               <ul className={styles.contact__list}>
                 <li className={styles.contact__item}>
                   <a
-                    href='mailto:Adekanmbiayomiposi2003@gmail.com'
+                    href='mailto:ogbajestephen94@gmail.com'
                     target='_blank'
                     rel='noopener noreferrer'
                     className={styles.contact__link}
                   >
-                    Adekanmbiayomiposi2003@gmail.com
+                    ogbajestephen94@gmail.com
                   </a>
                 </li>
                 <li className={styles.contact__item}>
                   <a
-                    href='https://www.linkedin.com/in/ayomiposi-adekanmbi-b961351b4/'
+                    href='https://www.linkedin.com/in/stephen-annozie-ogbaje/'
                     target='_blank'
                     rel='noopener noreferrer'
                     className={styles.contact__link}
